@@ -1,0 +1,77 @@
+.static-box{
+position: static;
+background-color: aqua;
+}
+.relative-box{
+    position: relative;
+background-color: red; left: 30px ; top: 20px;
+}
+.absolute-box{
+    background-color: blue;
+    position: absolute;
+top: 30px; left: 15px;
+}
+.fixed-box{
+    position: fixed;
+    bottom: 10px; right: 10px;
+    background-color: chartreuse;
+}
+.sticky-box{
+    position: sticky;
+    top: 0px;
+    background-color: cornsilk;
+}
+.background-image{
+    background-image: url(https://m.media-amazon.com/images/I/71TJV4rW6gL._AC_UF894,1000_QL80_.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.background-image-repeat{
+    background-image: url(https://m.media-amazon.com/images/I/71TJV4rW6gL._AC_UF894,1000_QL80_.jpg);
+    height: 1000px;
+    background-repeat:repeat-x;
+    background-repeat: repeat-y;
+
+}
+.box-1{
+    z-index: 1;
+    background-color: bisque;
+}
+.box-2{
+    z-index: 2;
+    background-color: darkred;
+}
+.d9{
+    display: flex;
+    flex-direction: column;
+}
+#id1{
+    background-color: darkcyan;
+}
+.d10{
+    flex-direction: row;
+    display: flex;
+}
+.d11{
+    display: flex;
+    justify-content: space-evenly;
+}
+.d12{
+    flex-wrap: wrap;
+    display: flex;
+}
+.d13{
+    align-items:center ;
+    display: flex;
+}
+#id2{
+    background-color: red;
+    height: 30px;
+}
+#id3{
+    background-color: blueviolet;
+    height: 50px;
+}#id4{
+    background-color:goldenrod;
+    height: 80px
+}
